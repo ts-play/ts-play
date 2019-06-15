@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "none",
+        "moduleResolution": "node",
+        "target": "es5",
+        "lib": ["es5", "dom"],
+        "jsx": "react"
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+         "**/*.test.ts",
+         "**/*.test.tsx"
+    ]
+}
